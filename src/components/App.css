@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  color: red;
 }
 
 .App {
@@ -9,15 +10,15 @@ body {
   grid-template-columns: 250px auto;
   height: 100vh;
   overflow: scroll;
+  color: red;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
-  color: white;
   grid-column: 1 / span 2;
   padding: 10px 5px;
+  background-color: red;
 }
 
 form {
@@ -25,27 +26,31 @@ form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  background-color: red;
 }
 
 form input,
 form textarea {
   margin-bottom: 10px;
   width: 300px;
+  background-color: red;
 }
 
 nav,
 article {
   height: 100%;
   padding: 10px;
+  background-color: red;
 }
 
 nav {
-  background-color: #dee9ff;
+  background-color: red;
 }
 
 nav p:hover {
   text-decoration: underline;
   cursor: pointer;
+  background-color: red;
 }
 
 article .date {
@@ -54,6 +59,7 @@ article .date {
 
 article .body {
   white-space: break-spaces;
+  background-color: red;
 }
 
 .error {
